@@ -1,0 +1,95 @@
+
+.container-fluid{
+    padding: 3% 15% 7%;
+    background-color:#e3f2fd ;
+}
+#title{
+    background-color: #e3f2fd;
+    padding-bottom: 20px;
+}
+a{
+    font-size: 1.2rem; 
+}
+.navbar-brand{
+    padding-left: 5%;
+    font-size: 2rem;
+}
+ul{
+    padding-right:5% ;
+}
+.navbar{
+    padding:0 0 4.5rem;
+    font-size: 2rem;
+}
+.nav-item{
+    text-decoration: none;
+    padding: 0 18px;
+}
+
+.doc{
+    width: 80%;
+}
+#about{
+    padding: 12% 15% 12%;
+    text-align: center;
+}
+.presc{
+    line-height: 2rem;
+    color:#8f8f8f;
+}
+.icon:hover{
+    color: #364547;
+}
+.word{
+    padding-left:12.5% ;
+    line-height: 5rem;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+
+  #db{
+      padding: 3% 15% 7%;
+      background-color: #e3f2fd;
+  }
+  .airtable-embed{
+      margin-left: 3%;
+      width:95%;
+  }
+
+  .chat_icon{
+      position: fixed;
+      right: 30px;
+      bottom:0;
+      font-size: 80px;
+      color: black;
+      cursor: pointer;
+      z-index:100;
+  }
+  .chat_box{
+      position: fixed;
+      right: 20px;
+      bottom: 100px;
+      width: 400px;
+      height: 75vh;
+      background:#dedede ;
+      z-index: 100;
+      transition: rotate();
+      transform: scaleY(0);
+  }
+  .chat_box.active{
+      transform: scaleY(1);
+  }
+
+  .hidden{
+      display: none !important;
+  }
+  .conv-form-wrapper textarea{
+      height: 30px;
+      overflow: hidden;
+      resize: none;
+  }
+
+  #messages{
+      padding: 20px;
+  }
